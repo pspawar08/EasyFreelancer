@@ -14,7 +14,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Welcome ProjectPulse+</title>
+  <title>Welcome EasyFreelace</title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="./files/css/bootstrap.css" />
@@ -39,7 +39,7 @@
           <a class="navbar-brand" href="index.html">
             <img src="./files/images/logo.png" alt="" />
             <span>
-             ProjectPulse+
+             EasyFreelace
             </span>
           </a>
           
@@ -61,7 +61,7 @@
               </li>
             </ul>
             <div class="user_option">
-              <a href="loginc">
+              <a href="loginCompany"><!--Sending request to controller (registerCompany)-->
                
                  <span>
                   Login As Company &nbsp; <i class="fa-solid fa-building"></i>
@@ -117,7 +117,7 @@
                   <div class="detail-box">
                     <h1>
                       Hire the best <br>
-                      freelancers for any job, <br>
+                      free lancers for any job, <br>
                       online.
                     </h1>
                     <p>

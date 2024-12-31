@@ -15,13 +15,6 @@
       <scope>test</scope>
     </dependency>
     
-    
-    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-<dependency>
-    <groupId>mysql</groupId>
-    <artifactId>mysql-connector-java</artifactId>
-    <version>8.0.11</version>
-</dependency>
 
 <dependency>
     <groupId>org.postgresql</groupId>
@@ -53,7 +46,12 @@
     <version>5.1.1.RELEASE</version>
 </dependency>
 
-
+<!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>jstl</artifactId>
+    <version>1.2</version>
+</dependency>
     
     
   </dependencies>
