@@ -247,14 +247,7 @@
   </section>
 
   <!-- end experience section -->
-  
-  
-  
-  
-  
-  
-  
-  
+
                                   <div class="slider-container">
         <div class="slider">
             <span>Explore Project,</span>
@@ -299,15 +292,15 @@
         <div class="card-box ">
             <div class="text-center">
                 <div class="thumb-lg member-thumb mx-auto">
-                    <img src="./files/images/gauravpatil.jpg" class="rounded-circle img-thumbnail" alt="profile-image">
+                    <img src="./files/webimages/pruthvi.jpeg" class="rounded-circle img-thumbnail" alt="profile-image" >
                 </div>
                 <input type="hidden" value="${e.id}">
                 <div>
-                    <h4>Gaurav Patil</h4>
+                    <h4>Pruthviraj Pawar</h4>
                     <h6>${e.femail}</h6>
                     <p class="text-muted">Skills<span><i class="fa-brands fa-nutritionix"></i><br> </span><span><a href="#" class="text-pink">Java,Spring Boot, Spring MVC , Postgresql</a></span></p>
                 </div>
-              <a href="https://www.linkedin.com/in/gauravpatil13/" title="LinkedIn" class="btn btn-linkedin btn-lg" style="background-color:#3a86ff;"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a>
+              <a href="https://www.linkedin.com/in/pruthviraj4912/" title="LinkedIn" class="btn btn-linkedin btn-lg" style="background-color:#3a86ff;"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a>
               <br>
                 
                 <div class="mt-4">
@@ -320,13 +313,13 @@
                         </div>
                         <div class="col-4">
                             <div class="mt-3">
-                                <h5>BTECH<i class="fa-brands fa-google-scholar"></i></h5>
+                                <h5>B.E.<i class="fa-brands fa-google-scholar"></i></h5>
                                 <p class="mb-0 text-muted">Education</p>
                             </div>
                         </div>
                         <div class="col-4">
                             <div class="mt-3">
-                                <h5>13/05/2001</h5>
+                                <h5>08/01/2002</h5>
                                 <p class="mb-0 text-muted">Date of Birth</p>
                             </div>
                         </div>
@@ -338,15 +331,15 @@
          <div class="card-box " style="background-color:#e9d8a6">
             <div class="text-center">
                 <div class="thumb-lg member-thumb mx-auto">
-                    <img src="./files/images/rohitwagh.jpg" class="rounded-circle img-thumbnail " alt="profile-image">
+                    <img src="./files/webimages/onkar.jpeg" class="rounded-circle img-thumbnail " alt="profile-image">
                 </div>
                 <input type="hidden" value="${e.id}">
                 <div>
-                    <h4>Rohit Waghmare</h4>
+                    <h4>Onkar Panchakshari</h4>
                     <h6>${e.femail}</h6>
                     <p class="text-muted">Skills<span><i class="fa-brands fa-nutritionix"></i><br> </span><span><a href="#" class="text-pink">Java, Jirs, Manual Testing ,Automation,Selenium</a></span></p>
                 </div>
-              <a href="https://www.linkedin.com/in/rohitwaghmare-rohit/" title="LinkedIn" class="btn btn-linkedin btn-lg" style="background-color:#3a86ff;"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a>
+              <a href="https://www.linkedin.com/in/onkar-panchakshari-a325aa1b6/" title="LinkedIn" class="btn btn-linkedin btn-lg" style="background-color:#3a86ff;"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a>
               <br>
                 
                 <div class="mt-4">
@@ -359,13 +352,13 @@
                         </div>
                         <div class="col-4">
                             <div class="mt-3">
-                                <h5>BTECH<i class="fa-brands fa-google-scholar"></i></h5>
+                                <h5>B.E.<i class="fa-brands fa-google-scholar"></i></h5>
                                 <p class="mb-0 text-muted">Education</p>
                             </div>
                         </div>
                         <div class="col-4">
                             <div class="mt-3">
-                                <h5>03/01/1997</h5>
+                                <h5>03/01/2002</h5>
                                 <p class="mb-0 text-muted">Date of Birth</p>
                             </div>
                         </div>
@@ -532,7 +525,7 @@ Core python expertise</p>
             <a  class="card-title title-link fs-16 fw-bold" style="font-size: 24px;">
 Health administration</a>
             <br>
-            <a href="single-project6.html" class="card-title title-link fs-16 fw-bold">Gauravinfo Technologies</a>
+            <a href="single-project6.html" class="card-title title-link fs-16 fw-bold">SMA info Technologies</a>
             <p class="card-text mt-3 fs-14" style="color:blue;"><b>Required Skills:</b>Spring Boot,Spring MVC,Postgresql,Hibernate,SQL</p>
             
             <center><a href="loginf"><button type="button" class="btn btn-primary">View and Apply <i class="fa-solid fa-angles-right"></i></button></a></center>
@@ -611,14 +604,14 @@ Building chatbots</a>
       </div>
       <div class="detail-box"  >
         <h2>
-          About ProjectPulse Company
+          About EasyFreelancer Company
         </h2>
         <p>
-          Welcome to ProjectPulse, where freelance talent meets exceptional projects!
+          Welcome to EasyFreelancer, where freelance talent meets exceptional projects!
 
-At ProjectPulse, we're passionate about connecting businesses with top-tier freelancers to bring their projects to life. With a wealth of experience in the freelancing industry, we understand the challenges and opportunities that come with finding the perfect match for your project needs.
+At EasyFreelancer, we're passionate about connecting businesses with top-tier freelancers to bring their projects to life. With a wealth of experience in the freelancing industry, we understand the challenges and opportunities that come with finding the perfect match for your project needs.
 
-Our mission is simple: to provide a platform where clients can access a diverse pool of skilled freelancers, and freelancers can showcase their expertise and find rewarding opportunities. Whether you're a business in need of specialized talent or a freelancer seeking exciting projects, ProjectPulse is your go-to destination.
+Our mission is simple: to provide a platform where clients can access a diverse pool of skilled freelancers, and freelancers can showcase their expertise and find rewarding opportunities. Whether you're a business in need of specialized talent or a freelancer seeking exciting projects, EasyFreelancer is your go-to destination.
        
       </div>
     </div>
@@ -743,7 +736,7 @@ Our mission is simple: to provide a platform where clients can access a diverse 
               <div class="carousel-item active">
                 <div class="detail-box">
                   <h4>
-                   Gaurav Patil
+                   Pruthviraj Pawar
                   </h4>
                   <p>
                     This is Best Platform for Freelancer Where they can earn money through freelancing and get unlimited opprtunity to work on Sereval Project
@@ -754,10 +747,10 @@ Our mission is simple: to provide a platform where clients can access a diverse 
               <div class="carousel-item">
                 <div class="detail-box">
                   <h4>
-                   Rohit Waghmare
+                   Sudarshan Haral
                   </h4>
                   <p>
-                  Their platform is user-friendly, their team is responsive and professional, and their commitment to quality is unmatched. Thanks to ProjectPulse, we were able to find the perfect freelancer for our project, and the results exceeded our expectations. 
+                  Their platform is user-friendly, their team is responsive and professional, and their commitment to quality is unmatched. Thanks to EasyFreelancer, we were able to find the perfect freelancer for our project, and the results exceeded our expectations. 
                   </p>
                   <img src="./files/images/quote.png" alt="">
                 </div>
@@ -765,10 +758,10 @@ Our mission is simple: to provide a platform where clients can access a diverse 
               <div class="carousel-item">
                 <div class="detail-box">
                   <h4>
-                   Vaibhav Barde
+                   Onkar Panchakshari
                   </h4>
                   <p>
-                  The platform is intuitive, making it simple to browse profiles, communicate with freelancers, and manage projects. We've been consistently impressed with the quality of talent available on ProjectPulse, and the level of professionalism exhibited by both the freelancers and the ProjectPulse team.
+                  The platform is intuitive, making it simple to browse profiles, communicate with freelancers, and manage projects. We've been consistently impressed with the quality of talent available on EasyFreelancer, and the level of professionalism exhibited by both the freelancers and the EasyFreelancer team.
                   </p>
                   <img src="./files/images/quote.png" alt="">
                 </div>
@@ -799,7 +792,7 @@ Our mission is simple: to provide a platform where clients can access a diverse 
           <div class="info_logo">
             <img src="images/logo.png" alt="" />
             <span>
-              ProjectPulse
+              EasyFreelancer
               
             </span>
           </div>
@@ -850,7 +843,7 @@ Our mission is simple: to provide a platform where clients can access a diverse 
                 Offices
               </h5>
               <p>
-              Ghorpadi Gav,Pune,Maharashtra
+              Shivajinagar,Pune,Maharashtra
               </p>
             </div>
 
@@ -859,7 +852,7 @@ Our mission is simple: to provide a platform where clients can access a diverse 
                 Follow Our Founder
               </h5>
               <p>
-              <a href="https://www.linkedin.com/in/gauravpatil13/">Gaurav Patil</a>
+              <a href="https://www.linkedin.com/in/pruthviraj4912/">Pruthviraj Pawar</a>
               </p>
             </div>
 
@@ -901,7 +894,7 @@ Our mission is simple: to provide a platform where clients can access a diverse 
                     </div>
                     <div class="detail-box">
                       <h6>
-                        gauravpatilgr13@gmail.com
+                        pruthvirajpawar@outlook.com&nbsp;
                       </h6>
                     </div>
                   </a>
@@ -913,7 +906,7 @@ Our mission is simple: to provide a platform where clients can access a diverse 
                     </div>
                     <div class="detail-box">
                       <h6>
-                        Call +91 9834583904
+                        Call +91 8605663815
                       </h6>
                     </div>
                   </a>
@@ -934,7 +927,7 @@ Our mission is simple: to provide a platform where clients can access a diverse 
     <div class="container">
       <p>
         &copy; <span id="displayDate"></span> All Rights Reserved By
-        <a href="https://html.design/">Gaurav Patil</a>
+        <a href="https://html.design/">Pruthviraj Pawar</a>
       </p>
     </div>
   </footer>
