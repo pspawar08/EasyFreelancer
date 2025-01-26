@@ -1,5 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <!---Coding By CodingLab | www.codinglabweb.com--->
 <html lang="en">
@@ -10,9 +8,8 @@
     <!--<title>Registration Form in HTML CSS</title>-->
     <!---Custom CSS File--->
     
-    <title>Login Companies</title>
+    <title>Login Freelancer</title>
     <link rel="shortcut icon" href="./files/images/favicon-32x32.png" type="image/x-icon">
-    
     <style>
      a{
         text-decoration: none;
@@ -30,54 +27,52 @@
           <a class="/" href="/SpringMVCPersonal_Project">
             <img src="./files/images/logo.png" alt="" />
             <span>
-              EasyFreelancer Company Login
+              EasyFreelancer Freelancer Login
             </span>
           </a>
     
       <header>Welcome Back to EasyFreelancer Login Here</header>
-     <form id="loginForm" action="logindata" class="form" method="post">
+      <form id="loginForm" action="Logincheakf" class="form" method="post">
     <div class="input-box">
         <label>Email Address</label>
         <input type="email" placeholder="Enter Your email address" name="email" required />
     </div>
-
     <br>
     <div class="input-box">
         <label>Enter Password</label>
-        <input type="password" placeholder="Enter Your Password" name="password" required pattern=".{8,}" title="Password must be at least 8 characters long." />
+        <input type="password" placeholder="Enter Your Password" name="password" required />
     </div>
-
     <button type="submit">Login</button>
+    <p style="color:green;">${message}</p>
+    <p style="color:red;">${loginerror}</p>
     <br>
-    <a href="registercompany">
-        <button type="button">Register Here</button>
-    </a>
-    Don't Have Account?
+    <a href="registerf"><button type="button">Register Here</button></a>
+    Don't have an account?
 </form>
     </section>
- 
-<script>
+  
+  
+  <script>
 document.getElementById('loginForm').addEventListener('submit', function(event) {
     var form = event.target;
-    var email = form.elements['email'].value;
-    var password = form.elements['password'].value;
+    var email = form.elements['email'].value.trim();
+    var password = form.elements['password'].value.trim();
 
-    // Simple email format validation (additional to HTML5 email type)
-    var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailPattern.test(email)) {
+    // Ensure email is not empty and is valid
+    if (email === "" || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
         alert('Please enter a valid email address.');
-        event.preventDefault(); // Prevent form submission
+        event.preventDefault();
         return;
     }
 
-    // Password length validation (additional to HTML5 pattern)
-    if (password.length < 8) {
-        alert('Password must be at least 8 characters long.');
-        event.preventDefault(); // Prevent form submission
+    // Ensure password is not empty
+    if (password === "") {
+        alert('Password cannot be empty.');
+        event.preventDefault();
+        return;
     }
 });
 </script>
-
 
 <style>/* Import Google font - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
@@ -93,7 +88,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background-image: url(https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-image: url(https://images.pexels.com/photos/1181248/pexels-photo-1181248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-size: cover;
    background-repeat: no-repeat;
 }
@@ -203,6 +198,7 @@ body {
     row-gap: 15px;
   }
 }</style>
+
 </body>
 </html>
 

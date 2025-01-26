@@ -1,4 +1,5 @@
-
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%> 
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
 <!DOCTYPE html>
 <html>
@@ -14,7 +15,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Welcome EasyFreelace</title>
+  <title>Welcome EasyFreelancer</title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="./files/css/bootstrap.css" />
@@ -39,7 +40,7 @@
           <a class="navbar-brand" href="index.html">
             <img src="./files/images/logo.png" alt="" />
             <span>
-             EasyFreelace
+             EasyFreelancer
             </span>
           </a>
           
@@ -61,7 +62,7 @@
               </li>
             </ul>
             <div class="user_option">
-              <a href="loginCompany"><!--Sending request to controller (registerCompany)-->
+              <a href="loginc">
                
                  <span>
                   Login As Company &nbsp; <i class="fa-solid fa-building"></i>
@@ -117,7 +118,7 @@
                   <div class="detail-box">
                     <h1>
                       Hire the best <br>
-                      free lancers for any job, <br>
+                      freelancers for any job, <br>
                       online.
                     </h1>
                     <p>
