@@ -59,14 +59,8 @@ public class CompanyController {
 		
 		bf.close();
 		
-		
-		c1.setProfileimg(f);
-		
-		
-		
-		
+		c1.setProfileimg(f);		
 		cd.dataenter(c1);
-		
 		
 		return "redirect:/loginc";
 		}
@@ -74,20 +68,11 @@ public class CompanyController {
 		return "redirect:/registercompany";
 		
 	}
-	
-	
-	
 	//Mapping for Login
 	@RequestMapping(value = "/logindata",method = RequestMethod.POST)
 	public String loginmapping(@RequestParam("email")String email,@RequestParam("password") String password,HttpSession h1)
-	{
-		
-		
+	{	
 	List<Company> Company = cd.loginauthecation(email,password);
-
-	
-	
-	
 	if(Company.isEmpty())
 	{
 		return "redirect:/loginc";
@@ -99,8 +84,6 @@ public class CompanyController {
 	
      return "redirect:/homec";	
 	}
-	
-	
 	
 	//Mapping for Homepage
 	@RequestMapping("/homec")
@@ -140,10 +123,6 @@ public class CompanyController {
 		int companydatacount=cd.getcountcompany();
 		System.out.println(companydatacount);
 		mm.addAttribute("countcompany",companydatacount);
-	
-	
-	
-		
 		mm.addAttribute("kk",companies);
 		return "homec";
 	}
@@ -160,9 +139,6 @@ public class CompanyController {
 	
 	@RequestMapping("view-history")
 	public String viewHistory() {
-		
-		
-	
 	
 	return "historyjobandproject";
 		
@@ -185,11 +161,6 @@ public class CompanyController {
 	
 		
 	}
-	
-	
-	
-	
-	
 	//Profile Of Comapany
 	@RequestMapping("/profilec")
 	public String profilcompany(HttpSession h1,ModelMap mm)
@@ -202,9 +173,6 @@ public class CompanyController {
 		
 		return "profilec";
 	}
-	
-	
-	
 	//Update profile Mapping
 	@RequestMapping(value = "/updateinfoc",method = RequestMethod.POST)
 	public String updateprofile(@ModelAttribute ("c2") Company c2) 
@@ -214,19 +182,14 @@ public class CompanyController {
 		return "redirect:/loginc";
 	}
 	
-	                                  //Job Post,Update Delete Start
+    //Job Post,Update Delete Start
 	
 	//Post Job data Mapping
 	@RequestMapping(value = "/postjobdata",method = RequestMethod.POST)
 	public String postjob(@ModelAttribute("c1") postjob c1,HttpSession h1)
 	{
-		
 		cd.postjobdetails(c1);
-		
-		
-		
 		return "redirect:/homec";
-		
 	}
 	
 	@RequestMapping(value = "/editjob/{id}",method = RequestMethod.GET)
@@ -262,12 +225,9 @@ public class CompanyController {
 		
 	}
 	
-	                           //Job Post,Update Delete End
+   //Job Post,Update Delete End
 	
-	
-	
-	
-	                           //Project Post,Update Delete Start
+    //Project Post,Update Delete Start
 	
 	
 	//Post Project Mapping
@@ -292,10 +252,7 @@ public class CompanyController {
 		return "redirect:/homec";
 	}
 	
-	
-	
-	
-	
+
 	@RequestMapping(value = "/deleteproject/{id}",method = RequestMethod.GET)
 	public String reomveproject(@PathVariable int id,ModelMap mm)
 	{
@@ -308,10 +265,7 @@ public class CompanyController {
 		
 	}
 	
-	
-	
-	
-	                                               //Application Showing to Company Start
+       //Application Showing to Company Start
 	
 	
 	@RequestMapping(value = "/getcandidatedata",method = RequestMethod.POST)
@@ -346,16 +300,11 @@ public class CompanyController {
 		
 		return "applications";
 	}
-	                             
-	
-	                          //Application Showing to Company End
-	
-	
-	
-	
-	
-	                              //Job and Project Action 
-	                                      // Start
+
+     //Application Showing to Company End
+
+	//Job and Project Action 
+     // Start
 	@RequestMapping(value = "/updatestatus",method = RequestMethod.POST)
 	public String updatejobstatus(@ModelAttribute("c1") jobapplications c1,ModelMap mm) {
 		
@@ -418,12 +367,6 @@ public class CompanyController {
 	}
 	
 	
-	                                  
-	
-	
-	
-	
-	
 	@RequestMapping("/messagepagecompany")
 	public String messagepage() {
 		
@@ -432,7 +375,6 @@ public class CompanyController {
 		return "messagepagecompany";
 		
 	}
-	
 	
 	//Post job webpage
 	@RequestMapping("/postjob")
@@ -455,31 +397,16 @@ public class CompanyController {
 		List<Company> companies = (List<Company>)h1.getAttribute("company");
 		m.addAttribute("kk",companies);
 		
-		
-		
 		return "postproject";
 	}
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	//Mappig for Logout
 	@RequestMapping("/logutc")
 	public String logout(HttpSession h1)
 	{
 		
-		
 		return "redirect:/loginc";
 	}
-	
-	
-	
-	
 	
 	
 	//Mapping for Footer
@@ -498,7 +425,6 @@ public class CompanyController {
 		return "headerfile";
 	}
 	
-	
 	//Mapping for Login page
 	@RequestMapping("/loginc")
 	public String loginpage()
@@ -508,16 +434,11 @@ public class CompanyController {
 		return "loginc";
 	}
 	
-	
 	//Mapping for Register Page
 	@RequestMapping("/registercompany")
 	public String registercompany()
 	{
-		
-		
 		return "registerc";
-	}
-	
-	
+	}	
 
 }

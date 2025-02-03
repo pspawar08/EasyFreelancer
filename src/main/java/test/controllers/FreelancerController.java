@@ -191,8 +191,7 @@ public class FreelancerController {
 		return "Explorejobs";
 	}
 	
-	
-	
+
 	@RequestMapping(value = "/viewandApply/{id}" ,method = RequestMethod.GET)
 	public String showalljobinfo(@PathVariable int id,ModelMap mm,HttpSession h1)
 	{
@@ -246,8 +245,7 @@ public class FreelancerController {
 		
 		return "Exploreproject";
 	}
-	
-	
+
 	
 	@RequestMapping(value = "/viewandapplyproject/{id}",method = RequestMethod.GET)
 	public String viewandapplyproject(@PathVariable int id,ModelMap mm,HttpSession h1) {
@@ -255,16 +253,14 @@ public class FreelancerController {
 	   List<postproject> invidualprojectdetails=	fd.getprojectdetails(id);
 	   
 	   mm.addAttribute("projectinfo",invidualprojectdetails);
-	   
-	   
+
 	      //User Data
 		  List<Freelancer>  freelancerdata= (List<Freelancer>) h1.getAttribute("data");
 		  
 		  mm.addAttribute("profile",freelancerdata);
 			
 			return "viewandapplyproject";
-	   
-	   
+
 		
 	}
 	
@@ -290,8 +286,7 @@ public class FreelancerController {
 			
 		    return "Exploreproject";
 		
-		
-		
+
 	}
 	
 	@RequestMapping(value = "/freelancerapplication/{femail}")
@@ -306,12 +301,7 @@ public class FreelancerController {
 	//show project
     List<projectapplication>   projectdata  =fd.trackprojectapplications(femail);
     
-    mm.addAttribute("projectapplication",projectdata);
-    
-                
-   
-               
-              
+    mm.addAttribute("projectapplication",projectdata);      
 		
 		return "myapplication";
 		
@@ -326,18 +316,7 @@ public class FreelancerController {
 		
 		return "companiesview";
 	}
-	
-	
 		
-	
-	
-
-	
-	
-	
-	
-	
-	
 	
 	@RequestMapping("/loginf")
 	public String freelancerloginpage()
