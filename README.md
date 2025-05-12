@@ -1,7 +1,7 @@
 # EasyFreelancer
 
 **Freelancer and Company Connection Platform**  
-*A traditional Spring MVC-based web application for connecting freelancers with companies.*
+*A Spring MVC-based web application for connecting freelancers with companies.*
 
 ## 🛠 Tech Stack
 
@@ -58,4 +58,4 @@
   
 5. **Access the application**
    - Open a browser and navigate to:
-     (http://localhost:8080/easyfreelancer/)
+     http://localhost:8080/easyfreelancer/
